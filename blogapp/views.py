@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def list_detail (request):
+    return render (request, "blogapp/list_detail.html")
