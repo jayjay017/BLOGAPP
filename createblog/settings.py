@@ -25,8 +25,8 @@ SECRET_KEY = 'ijj^4zs$13cf0^b(vqs8uz90!tpr4(id6i!&%2p-^$z3+ag2h^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'jayjay0017.pythonanywhere.com']
-ALLOWED_HOSTS = ['JAYBLOG-jayjay16.c9users.io']
+ALLOWED_HOSTS = ['jayjay0017.pythonanywhere.com']
+#ALLOWED_HOSTS = ['JAYBLOG-jayjay16.c9users.io']
 
 
 # Application definition
@@ -123,4 +123,4 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+#MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
